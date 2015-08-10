@@ -90,20 +90,25 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="EstadoAtacar.h" />
+    <ClInclude Include="EstadoDeambular.h" />
     <ClInclude Include="EstadoQuieto.h" />
+    <ClInclude Include="Utils.h" />
     <ClInclude Include="MiGame.h" />
     <ClInclude Include="Persecutor.h" />
+    <ClInclude Include="Player.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Comida!.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="EstadoAtacar.cpp" />
+    <ClCompile Include="EstadoDeambular.cpp" />
     <ClCompile Include="EstadoQuieto.cpp" />
     <ClCompile Include="MiGame.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Persecutor.cpp" />
+    <ClCompile Include="Player.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

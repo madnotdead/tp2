@@ -4,10 +4,11 @@
 
 #include "Game.h"
 #include "Persecutor.h"
-
+#include "Player.h"
+#include "Utils.h"
 //Identificadores para las imagenes(sf::Image) almacenadas
 //en el mapa m_ManagerDeImagenes
-enum IDImagen{VehiculoParticula,VehiculoParticulaCobarde};
+enum IDImagen{ Wanderer, Jugador, ObstaculoCircular, ObstaculoPared};
 
 //Clase principal del juego, contiene toda la estructura de juego
 //Este objeto sera el responsable de:
@@ -24,9 +25,13 @@ private:
 
 	MiGame& operator=(const MiGame& cpy);
 
-	Persecutor* m_pPersecutor;
-	Vehiculo*   m_pPresa;
+	/*Persecutor* m_pPersecutor;*/
+	Player*   m_pPlayer;
 
+	std::vector<Persecutor*> m_pPersecutores;
+	std::vector<EntidadEscena*>				Obstaculos;//Necesitamos estos para decirle cuales son los obstaculos
+	std::vector<SteeringBehaviors::Pared*>	Paredes;   //Necesitamos estos para definir como son las paredes obstaculos
+	std::vector<EntidadEscena*>				ParedesEscena;//Necesitamos estos para tener las paredes como objetos de Box2D y que se grafiquen
 public:
 	//Nos devuelve la unica instancia de la clase
 	static MiGame* Singleton();
