@@ -62,7 +62,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)\Libreria\lib\Debug\;$(BOX2D2_3_LIB)\vc2013;$(SFML2_1_LIB)\vc2013</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\O23002\Documents\tp2\Libreria\lib\Debug;$(BOX2D2_3_LIB)\vc2013;$(SFML2_1_LIB)\vc2013</AdditionalLibraryDirectories>
       <AdditionalDependencies>State_Pattern_Framework_VS2013-d.lib;sfml-graphics-s-d.lib;sfml-main-d.lib;sfml-system-s-d.lib;sfml-window-s-d.lib;Box2D-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <EntryPointSymbol>
       </EntryPointSymbol>
@@ -90,7 +90,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="StateMachine.h" />
-    <ClInclude Include="Utils.h" />
     <ClInclude Include="MiGame.h" />
     <ClInclude Include="Zombie.h" />
     <ClInclude Include="ZombieState.h" />

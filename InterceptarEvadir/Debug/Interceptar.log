@@ -1,9 +1,106 @@
-﻿Compilación iniciada a las 11/07/2015 02:05:11 a.m..
-     1>Proyecto "C:\Users\Leandro\Desktop\Nueva carpeta (2)\Ejemplos_SteeringBehaviors_2014\Ejemplos_SteeringBehaviors\CodigoFuenteEjemplos\InterceptarEvadir\Interceptar.vcxproj" en el nodo 2 (Build destinos).
-     1>Link:
-         Interceptar.vcxproj -> C:\Users\Leandro\Desktop\Nueva carpeta (2)\Ejemplos_SteeringBehaviors_2014\Ejemplos_SteeringBehaviors\CodigoFuenteEjemplos\Debug\InterceptarEvadir.exe
-     1>Compilación del proyecto terminada "C:\Users\Leandro\Desktop\Nueva carpeta (2)\Ejemplos_SteeringBehaviors_2014\Ejemplos_SteeringBehaviors\CodigoFuenteEjemplos\InterceptarEvadir\Interceptar.vcxproj" (Build destinos).
+﻿Build started 10/08/2015 04:04:39 p.m..
+     1>Project "C:\Users\O23002\Documents\tp2\InterceptarEvadir\Interceptar.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\O23002\Documents\tp2\\Libreria\includes\ /ZI /nologo /W3 /WX- /Od /Oy- /D SFML_STATIC /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Comida!.cpp" MiGame.cpp
+         MiGame.cpp
+         Comida!.cpp
+     1>c:\users\o23002\documents\tp2\interceptarevadir\comida!.cpp(7): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\O23002\Documents\tp2\Debug\InterceptarEvadir.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\O23002\Documents\tp2\\Libreria\lib\Debug\ /LIBPATH:\vc2013 /LIBPATH:\vc2013 "State_Pattern_Framework_VS2013-d.lib" "sfml-graphics-s-d.lib" "sfml-main-d.lib" "sfml-system-s-d.lib" "sfml-window-s-d.lib" "Box2D-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\O23002\Documents\tp2\Debug\InterceptarEvadir.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\O23002\Documents\tp2\Debug\InterceptarEvadir.lib" /MACHINE:X86 "Debug\Comida!.obj"
+         Debug\MiGame.obj
+     1>State_Pattern_Framework_VS2013-d.lib(EntidadEscena.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'State_Pattern_Framework_VS2013-d.lib(EntidadEscena.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>State_Pattern_Framework_VS2013-d.lib(Game.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'State_Pattern_Framework_VS2013-d.lib(Game.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>State_Pattern_Framework_VS2013-d.lib(EntidadBase.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'State_Pattern_Framework_VS2013-d.lib(EntidadBase.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>State_Pattern_Framework_VS2013-d.lib(Estado.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'State_Pattern_Framework_VS2013-d.lib(Estado.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>State_Pattern_Framework_VS2013-d.lib(FSM.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'State_Pattern_Framework_VS2013-d.lib(FSM.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>State_Pattern_Framework_VS2013-d.lib(Matematica.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'State_Pattern_Framework_VS2013-d.lib(Matematica.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>State_Pattern_Framework_VS2013-d.lib(SteeringBehaviors.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'State_Pattern_Framework_VS2013-d.lib(SteeringBehaviors.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>State_Pattern_Framework_VS2013-d.lib(Vehiculo.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'State_Pattern_Framework_VS2013-d.lib(Vehiculo.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-graphics-s-d.lib(Color.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-graphics-s-d.lib(Color.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-graphics-s-d.lib(GLCheck.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-graphics-s-d.lib(GLCheck.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-graphics-s-d.lib(Image.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-graphics-s-d.lib(Image.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-graphics-s-d.lib(ImageLoader.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-graphics-s-d.lib(ImageLoader.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-graphics-s-d.lib(RenderStates.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-graphics-s-d.lib(RenderStates.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-graphics-s-d.lib(RenderTarget.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-graphics-s-d.lib(RenderTarget.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-graphics-s-d.lib(RenderWindow.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-graphics-s-d.lib(RenderWindow.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-graphics-s-d.lib(Shader.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-graphics-s-d.lib(Shader.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-graphics-s-d.lib(Texture.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-graphics-s-d.lib(Texture.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-graphics-s-d.lib(TextureSaver.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-graphics-s-d.lib(TextureSaver.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-graphics-s-d.lib(Transform.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-graphics-s-d.lib(Transform.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-graphics-s-d.lib(Transformable.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-graphics-s-d.lib(Transformable.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-graphics-s-d.lib(View.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-graphics-s-d.lib(View.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-graphics-s-d.lib(Vertex.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-graphics-s-d.lib(Vertex.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-graphics-s-d.lib(Sprite.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-graphics-s-d.lib(Sprite.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(Clock.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-system-s-d.lib(Clock.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(Err.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-system-s-d.lib(Err.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(Lock.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-system-s-d.lib(Lock.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(Mutex.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-system-s-d.lib(Mutex.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(Sleep.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-system-s-d.lib(Sleep.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(String.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-system-s-d.lib(String.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(ThreadLocal.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-system-s-d.lib(ThreadLocal.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(Time.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-system-s-d.lib(Time.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(ClockImpl.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-system-s-d.lib(ClockImpl.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(MutexImpl.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-system-s-d.lib(MutexImpl.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(SleepImpl.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-system-s-d.lib(SleepImpl.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(ThreadLocalImpl.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-system-s-d.lib(ThreadLocalImpl.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(GlContext.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-window-s-d.lib(GlContext.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(GlResource.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-window-s-d.lib(GlResource.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(JoystickManager.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-window-s-d.lib(JoystickManager.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(VideoMode.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-window-s-d.lib(VideoMode.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(Window.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-window-s-d.lib(Window.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(WindowImpl.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-window-s-d.lib(WindowImpl.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(WglContext.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-window-s-d.lib(WglContext.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(JoystickImpl.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-window-s-d.lib(JoystickImpl.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(VideoModeImpl.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-window-s-d.lib(VideoModeImpl.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(WindowImplWin32.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfml-window-s-d.lib(WindowImplWin32.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2DistanceJoint.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2DistanceJoint.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2FrictionJoint.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2FrictionJoint.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2GearJoint.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2GearJoint.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2Joint.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2Joint.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2MotorJoint.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2MotorJoint.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2MouseJoint.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2MouseJoint.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2PrismaticJoint.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2PrismaticJoint.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2PulleyJoint.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2PulleyJoint.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2RevoluteJoint.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2RevoluteJoint.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2RopeJoint.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2RopeJoint.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2WeldJoint.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2WeldJoint.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2WheelJoint.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2WheelJoint.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2CircleContact.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2CircleContact.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2Contact.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2Contact.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2ContactSolver.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2ContactSolver.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2PolygonAndCircleContact.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2PolygonAndCircleContact.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2EdgeAndCircleContact.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2EdgeAndCircleContact.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2EdgeAndPolygonContact.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2EdgeAndPolygonContact.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2ChainAndCircleContact.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2ChainAndCircleContact.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2ChainAndPolygonContact.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2ChainAndPolygonContact.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2PolygonContact.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2PolygonContact.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2Body.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2Body.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2ContactManager.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2ContactManager.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2Fixture.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2Fixture.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2Island.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2Island.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2World.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2World.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2WorldCallbacks.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2WorldCallbacks.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2BlockAllocator.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2BlockAllocator.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2Draw.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2Draw.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2Math.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2Math.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2Settings.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2Settings.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2StackAllocator.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2StackAllocator.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2Timer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2Timer.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2EdgeShape.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2EdgeShape.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2ChainShape.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2ChainShape.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2PolygonShape.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2PolygonShape.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2BroadPhase.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2BroadPhase.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2CollideCircle.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2CollideCircle.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2CollideEdge.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2CollideEdge.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2CollidePolygon.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2CollidePolygon.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2Collision.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2Collision.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2Distance.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2Distance.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2DynamicTree.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2DynamicTree.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+     1>Box2D-d.lib(b2TimeOfImpact.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Box2D-d.lib(b2TimeOfImpact.obj)' or at 'C:\Users\O23002\Documents\tp2\Debug\vc120.pdb'; linking object as if no debug info
+         Interceptar.vcxproj -> C:\Users\O23002\Documents\tp2\Debug\InterceptarEvadir.exe
+     1>Done Building Project "C:\Users\O23002\Documents\tp2\InterceptarEvadir\Interceptar.vcxproj" (Rebuild target(s)).
 
-Compilación correcta.
+Build succeeded.
 
-Tiempo transcurrido 00:00:00.21
+Time Elapsed 00:00:08.29

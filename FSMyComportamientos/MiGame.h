@@ -32,6 +32,9 @@ private:
 	std::vector<EntidadEscena*>				Obstaculos;//Necesitamos estos para decirle cuales son los obstaculos
 	std::vector<SteeringBehaviors::Pared*>	Paredes;   //Necesitamos estos para definir como son las paredes obstaculos
 	std::vector<EntidadEscena*>				ParedesEscena;//Necesitamos estos para tener las paredes como objetos de Box2D y que se grafiquen
+	sf::Text timeCounter;
+	sf::Text noActivityTimeCounter;
+	sf::Font textFont;
 public:
 	//Nos devuelve la unica instancia de la clase
 	static MiGame* Singleton();

@@ -1,5 +1,6 @@
 #include "EstadoAtacar.h"
 #include "EstadoQuieto.h"
+#include "EstadoDeambular.h"
 #include "Persecutor.h"
 
 #include <iostream>
@@ -51,12 +52,12 @@ void EstadoAtacar::Entrar(EntidadBase* pEntidad)
 void EstadoAtacar::Ejecutar(EntidadBase* pEntidad)
 {
 	Persecutor* pPersecutor = dynamic_cast<Persecutor*>(pEntidad);
-	FSM& persecutorFSM = pEntidad->GetFSM();
+	FSM& persecutorFSM =  pEntidad->GetFSM();
 
 	sf::Vector2f dist = pPersecutor->GetPosicion()- pPersecutor->m_pPresa->GetPosicion();
 	if( sqrt(dist.x*dist.x+dist.y*dist.y) > 400 )//Si el enemigo esta muy lejos cambia de estado para quedarse quieto
 	{
-		persecutorFSM.CambiarEstado(EstadoQuieto::Singleton());
+		persecutorFSM.CambiarEstado(EstadoDeambular::Singleton());
 		return;
 	}
 }

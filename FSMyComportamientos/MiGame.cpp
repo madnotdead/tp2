@@ -116,12 +116,21 @@ void MiGame::CrearEscena()
 	{
 		m_pPersecutores[i]->GetSteeringBehaviors().m_pParedes = &Paredes;
 		m_pPersecutores[i]->GetSteeringBehaviors().m_pObstaculos = &Obstaculos;
+		m_pPersecutores[i]->m_FuerzaSteeringMax = 600;
+		m_pPersecutores[i]->m_VelocidadMax = 40;
 	}
 		
 	
 	m_pPlayer->GetSteeringBehaviors().m_pParedes = &Paredes;
 	m_pPlayer->m_FuerzaSteeringMax = 600;
 	m_pPlayer->m_VelocidadMax = 40;
+
+	/////////////////////////////////////////////////////////////////////////////////////////////
+	timeCounter.setFont(textFont);
+	timeCounter.setColor(sf::Color::White);
+	timeCounter.setCharacterSize(12);
+	timeCounter.setString("time: 0");
+	timeCounter.setPosition(sf::Vector2f(m_Window.getSize().x - 100, 100));
 }
 
 void MiGame::Actualizar(sf::Time frameTime)
@@ -180,6 +189,8 @@ void MiGame::Dibujar(sf::Time frameTime)
 	for (int i = 0; i < ParedesEscena.size(); ++i)
 		ParedesEscena[i]->Dibujar(m_Window);
 
+	m_Window.draw(timeCounter);
+
 	m_Window.display();
 }
 
@@ -193,4 +204,7 @@ void MiGame::LoadRecursos()
 		exit(0);
 	if (!m_ManagerDeImagenes[IDImagen::ObstaculoPared].loadFromFile("Recursos\\ObstaculoPared.png"))
 		exit(0);
+	if (!textFont.loadFromFile("Recursos\\Tango Regular.ttf"))
+		exit(0);
+	
 }

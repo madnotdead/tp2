@@ -1,6 +1,6 @@
 #include "Persecutor.h"
 
-#include "EstadoQuieto.h"
+#include "EstadoDeambular.h"
 
 //-------------------------------------------------------------//
 //-------------	Constructor/Destructor	-----------------------//
@@ -11,7 +11,7 @@ Persecutor::Persecutor(Vehiculo* pPresa, const b2BodyDef& CuerpoDef, const b2Fix
 											m_pPresa(pPresa)
 {
 	//Empezamos la FSM en el EstadoQuieto
-	m_MaquinaDeEstadoFinito.CambiarEstado(EstadoQuieto::Singleton());
+	m_MaquinaDeEstadoFinito.CambiarEstado(EstadoDeambular::Singleton());
 }
 
 //-------------------------------------------------------------//

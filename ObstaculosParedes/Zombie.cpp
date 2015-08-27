@@ -6,14 +6,14 @@ Zombie::Zombie(b2BodyDef cuerpo, b2FixtureDef adorno, float escala, sf::Texture 
 	this->m_FuerzaSteeringMax = 600;
 	this->m_VelocidadMax = 100;
 	mGame = _mGame;
-	m_pStateMachine = new StateMachine<Zombie>(this);
-	m_pStateMachine->SetCurrentState(State_Zombie_Deambular::Instance());
+	//m_MaquinaDeEstadoFinito.CambiarEstado(State_Zombie_Deambular::Instance());
 }
 
 void Zombie::Actualizar(float dt)
 {
-	m_pStateMachine->Update();
 	Actualizar(dt);
+	//m_MaquinaDeEstadoFinito.Actualizar(dt);
+
 }
 Zombie::~Zombie()
 {

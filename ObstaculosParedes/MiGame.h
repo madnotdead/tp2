@@ -1,10 +1,9 @@
 #pragma once
 
 #include <vector>
-
+#include <SFML\Graphics.hpp>
 #include "Game.h"
 #include "Vehiculo.h"
-
 //Identificadores para las imagenes(sf::Texture) almacenadas
 //en el mapa m_ManagerDeImagenes
 enum IDImagen{ VehiculoParticula, ObstaculoPared, ObstaculoCircular, Wanderer };
@@ -32,7 +31,9 @@ private:
 	std::vector<EntidadEscena*>				Obstaculos;//Necesitamos estos para decirle cuales son los obstaculos
 	std::vector<SteeringBehaviors::Pared*>	Paredes;   //Necesitamos estos para definir como son las paredes obstaculos
 	std::vector<EntidadEscena*>				ParedesEscena;//Necesitamos estos para tener las paredes como objetos de Box2D y que se grafiquen
-
+	sf::Text timeCounter;
+	sf::Text noActivityTimeCounter;
+	sf::Font textFont;
 public:
 	//Nos devuelve la unica instancia de la clase
 	static MiGame* Singleton();
@@ -44,6 +45,10 @@ public:
 	//================================================
 
 	std::map<IDImagen,sf::Texture> m_ManagerDeImagenes;
+
+	sf::Text timeCounter;
+	sf::Text noActivityTimeCounter;
+	sf::Font textFont;
 
 	//================================================
 	/////////////	 Game Metodos		 /////////////
